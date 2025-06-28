@@ -1,0 +1,43 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Style for divs with class 'exp' */
+.exp {
+  color: darkblue;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Reusable bold and yellow classes */
+.bold {
+  font-weight: bold;
+}
+
+.yellow {
+  color: goldenrod;
+}
+
+/* Input and button styles */
+input {
+  padding: 8px;
+  margin-top: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffcc00;
+}

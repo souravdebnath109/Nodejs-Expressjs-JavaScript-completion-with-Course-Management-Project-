@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrolled_courses</title>
+</head>
+<body>
+    <head>
+        <title>
+            add course
+        </title>
+
+    </head>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                    <a href="/add_course">Add Course</a>
+                    <a href="/view_courses">View Courses</a>
+                    <!-- <a href="/delete_course">Delete Course</a>
+                    <a href="/enrolled_courses">Enrolled Courses</a>
+                    <a href="/logout">Logout</a> -->
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Enrolled Courses</h1>
+        <ul>
+            {% for course in courses %}
+                <li>{{ course.name }} ({{ course.code }})</li>
+            {% endfor %}
+        </ul>
+
+    
+</body>
+</html>

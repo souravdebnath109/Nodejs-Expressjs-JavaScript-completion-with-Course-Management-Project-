@@ -1,0 +1,23 @@
+/* Style for original .courses class */
+.courses {
+  border: 2px solid gray;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Style applied when .block class is added */
+.courses.block {
+  width: 50%;
+  background-color: chartreuse;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+}
+
+/* Inner content layout */
+.courses.block .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
